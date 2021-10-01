@@ -1,0 +1,447 @@
+@charset "utf-8";
+@import url('fontawesome-4.6.3.min.css');
+@import url('framework.css');
+
+/********************/
+/* Page Intro */
+/********************/
+#pageintro {
+  padding: 200px 0;
+}
+
+#pageintro article .heading {
+  margin: 0;
+  font-size: 32px;
+}
+#pageintro article p {
+  margin: 0;
+}
+#pageintro article a {
+  margin-top: 30px;
+}
+
+/********************/
+/* Content Area */
+/********************/
+.container {
+  padding: 20px 0;
+}
+
+/* Content */
+
+.fa-ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fa-ul > li {
+  position: relative;
+  margin-bottom: 30px;
+  padding-left: 4.5rem;
+}
+.fa-ul > li:last-child {
+  margin-bottom: 0;
+}
+.fa-li {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  font-size: 3rem;
+  line-height: 1;
+  text-align: center;
+}
+
+.testimonial blockquote {
+  display: block;
+  position: relative;
+  width: 100%;
+  margin: 0 0 30px 0;
+  padding: 30px;
+  line-height: 1.4;
+  border: solid;
+  border-width: 0 0 1px 0;
+  text-align: center;
+  z-index: 1;
+}
+.testimonial blockquote::before {
+  display: none;
+}
+.testimonial blockquote::after {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin: 0 0 -18px -18px;
+  content: '';
+  border: solid;
+  border-width: 18px 18px 0 18px;
+}
+
+/* Comments */
+#comments ul {
+  margin: 0 0 40px 0;
+  padding: 0;
+  list-style: none;
+}
+#comments li {
+  margin: 0 0 10px 0;
+  padding: 15px;
+}
+#comments .avatar {
+  float: right;
+  margin: 0 0 10px 10px;
+  padding: 3px;
+  border: 1px solid;
+}
+#comments address {
+  font-weight: bold;
+}
+#comments time {
+  font-size: smaller;
+}
+#comments .comcont {
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+#comments .comcont p {
+  margin: 10px 5px 10px 0;
+  padding: 0;
+}
+
+#comments form {
+  display: block;
+  width: 100%;
+}
+#comments input,
+#comments textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+}
+#comments textarea {
+  overflow: auto;
+}
+#comments div {
+  margin-bottom: 15px;
+}
+#comments input[type='submit'],
+#comments input[type='reset'] {
+  display: inline-block;
+  width: auto;
+  min-width: 150px;
+  margin: 0;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+/* blog-2*/
+.blog-2 {
+  background-color: black;
+  display: flex;
+}
+.blog-2 article {
+  background-color: black;
+  width: 50%;
+  height: 400px;
+}
+.blog-2 article h6,
+.blog-2 article p,
+.blog-2 article footer {
+  margin-left: 5vw;
+  padding: 5vh;
+}
+.blog-2-img {
+  height: 350px;
+  width: 350px;
+  display: block;
+  margin: auto;
+}
+@media screen and (max-width: 700px) {
+  .blog-2-img {
+    display: none;
+  }
+  .blog-2 article {
+    width: 100%;
+  }
+  .blog-2 article h6,
+  .blog-2 article p,
+  .blog-2 article footer {
+    display: block;
+    margin: auto;
+  }
+}
+/* Footer
+--------------------------------------------------------------------------------------------------------------- */
+#footer {
+  padding: 80px 0;
+}
+
+#footer .title {
+  margin: 0 0 30px 0;
+  padding: 0 0 8px 0;
+  border-bottom: 1px solid;
+  font-size: 1.2rem;
+}
+
+#footer .linklist li {
+  margin-bottom: 10px;
+}
+#footer .linklist li:last-child {
+  margin-bottom: 0;
+}
+
+#footer .font-xs {
+  margin: 0;
+}
+
+/* Colours
+--------------------------------------------------------------------------------------------------------------- */
+body {
+  color: #a6a6a6;
+  background-color: #26272b;
+}
+a {
+  color: #a3bf00;
+}
+a:active,
+a:focus {
+  background: transparent;
+} /* IE10 + 11 Bugfix - prevents grey background */
+hr,
+.borderedbox {
+  border-color: #d7d7d7;
+}
+label span {
+  color: #ff0000;
+  background-color: inherit;
+}
+input:focus,
+textarea:focus,
+*:required:focus {
+  border-color: #a3bf00;
+}
+.overlay {
+  color: #ffffff;
+  background-color: inherit;
+}
+.overlay::after {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.55);
+}
+
+.btn,
+.btn.inverse:hover {
+  color: #ffffff;
+  background-color: #a3bf00;
+  border-color: #a3bf00;
+}
+.btn:hover,
+.btn.inverse {
+  color: inherit;
+  background-color: transparent;
+  border-color: inherit;
+}
+
+/* Rows */
+.row0,
+.row0 a {
+  color: #a6a6a6;
+  background-color: #26272b;
+}
+.row2 {
+  color: #a6a6a6;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.row3 {
+  color: #797979;
+  background-color: #ffffff;
+}
+.row4 {
+  color: #a6a6a6;
+  background-color: #151517;
+}
+.row5,
+.row5 a {
+  color: #a6a6a6;
+  background-color: #26272b;
+}
+
+/* Header */
+#header #logo a {
+  color: inherit;
+}
+
+/* Split Box */
+.split .box,
+.split .box::after {
+  color: #ffffff;
+  background-color: #151517;
+}
+
+/* Content Area */
+#shout .heading {
+  color: #ffffff;
+  background: inherit;
+}
+
+.testimonial blockquote {
+  color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: rgba(0, 0, 0, 0.5);
+}
+.testimonial:hover blockquote {
+  color: #ffffff;
+  background-color: #000000;
+}
+.testimonial blockquote::after {
+  border-color: transparent;
+  border-top-color: rgba(0, 0, 0, 0.5);
+}
+
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+/* ------------------------------------------------------------------------------------------------------------ */
+
+/* Media Queries
+--------------------------------------------------------------------------------------------------------------- */
+@-ms-viewport {
+  width: device-width;
+}
+
+/* Max Wrapper Width - Laptop, Desktop etc.
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (min-width: 978px) {
+  .hoc {
+    max-width: 978px;
+  }
+}
+
+/* Mobile Devices
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 900px) {
+  .hoc {
+    max-width: 90%;
+  }
+
+  #header {
+    padding: 30px 0 15px;
+  }
+  #header #logo {
+    margin: 0;
+  }
+
+  #comments input[type='reset'] {
+    margin-top: 10px;
+  }
+  .pagination li {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+  }
+
+  #copyright p:first-of-type {
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .imgl,
+  .imgr {
+    display: inline-block;
+    float: none;
+    margin: 0 0 10px 0;
+  }
+  .fl_left,
+  .fl_right {
+    display: block;
+    float: none;
+  }
+  .one_half,
+  .one_third,
+  .two_third,
+  .one_quarter,
+  .two_quarter,
+  .three_quarter {
+    display: block;
+    float: none;
+    width: auto;
+    margin: 0 0 30px 0;
+    padding: 0;
+  }
+
+  #topbar,
+  #header {
+    text-align: center;
+  }
+
+  #header #logo {
+    margin-bottom: 15px;
+  }
+
+  #topbar .fl_left {
+    margin-bottom: 10px;
+  }
+  #topbar .faico li {
+    float: none;
+  }
+  #topbar .fl_right li {
+    display: inline-block;
+  }
+  #topbar .fl_right li:first-child {
+    margin-right: 20px;
+  }
+
+  #shout div:last-child {
+    margin: 0;
+  }
+
+  #footer {
+    padding-bottom: 50px;
+  } /* Not needed, just looks a little cleaner - can be removed if not wanted */
+}
+
+/* Other
+--------------------------------------------------------------------------------------------------------------- */
+@media screen and (max-width: 650px) {
+  .scrollable {
+    display: block;
+    width: 100%;
+    margin: 0 0 30px 0;
+    padding: 0 0 15px 0;
+    overflow: auto;
+    overflow-x: scroll;
+  }
+  .scrollable table {
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+  }
+
+  .inline li {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .pushright li {
+    margin-right: 0;
+  }
+
+  .font-x2 {
+    font-size: 1.4rem;
+  }
+  .font-x3 {
+    font-size: 1.6rem;
+  }
+
+  .hoc.split {
+    max-width: none;
+    width: 100%;
+  }
+  .split .box {
+    float: none;
+    width: 100%;
+    padding: 10% 5%;
+  }
+}
