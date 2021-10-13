@@ -68,6 +68,13 @@
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
 
   <body>
@@ -100,7 +107,19 @@
                 <a
                   class="nav-link sizelge"
                   href="./../assets about page/about.html"
-                  >About &nbsp;</a
+                  >About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sizelge" href="./../assetsBlogPage/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link sizelge"
+                  href="./../contactusPage/contact.html"
+                  >Contact Us</a
                 >
               </li>
               <li class="nav-item dropdown">
@@ -110,7 +129,7 @@
                   href="#blog"
                   role="button"
                   aria-expanded="false"
-                  >Blogs &nbsp;</a
+                  >Sampradaa &nbsp;</a
                 >
                 <ul class="dropdown-menu" id="blog">
                   <li>
@@ -126,30 +145,6 @@
                           <li><a class="dropdown-item" href="#">Separated link</a></li> -->
                 </ul>
               </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  data-bs-toggle="dropdown"
-                  href="#"
-                  role="button"
-                  aria-expanded="false"
-                  >Events &nbsp;</a
-                >
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">FORTUNE</a></li>
-                  <li><a class="dropdown-item" href="#">Case Books</a></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Case Study Comps.</a>
-                  </li>
-                  <!-- <li><hr class="dropdown-divider"></li>
-                          <li><a class="dropdown-item" href="#">Separated link</a></li> -->
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link sizelge" href="./../assetsBlogPage/blog.html"
-                  >blog &nbsp;</a
-                >
-              </li>
             </ul>
           </div>
         </nav>
@@ -159,7 +154,20 @@
     <!-- Center Body -->
 
     <section id="center">
-      <div class="mains">Some Random Quote</div>
+      <div class="mains">
+        <h1>Welcome to ASSETS-DTU</h1>
+        <!-- <button class="scroll-btn">
+          <i class="fas fa-chevron-down"></i> SCROLL DOWN
+          <i class="fas fa-chevron-down"></i>
+        </button> -->
+        <div class="wrapper">
+          <div class="button">
+            <span class="button__mask"></span>
+            <span class="button__text">Scroll Down</span>
+            <span class="button__text button__text--bis">Scroll Down</span>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="features">
@@ -181,31 +189,35 @@
 
     <!-- 2nd Body Part -->
     <section id="intro">
-      <h2 class="fullform">ASSETS- The Finance Society</h2>
-      <ul class="aboutus">
-        <li class="aboutitem">
-          A.S.S.E.T.S is the Finance and Investment Society of Delhi
-          Technological University (formerly Delhi College of Engineering).
-        </li>
-        <li class="aboutitem">
-          A.S.S.E.T.S. stands for, Accounting Skills and Stock Exchange Training
-          Society.
-        </li>
-        <li class="aboutitem">
-          It was initially started an aim to nurture financially prudent
-          students and start an investing culture.
-        </li>
-        <li class="aboutitem">
-          It is the society that focuses on imparting basic understanding of
-          ‘how to manage your money’.
-        </li>
-        <li class="aboutitem">
-          Our vision is to create the next generation of smart and financially
-          prudent individuals and we are on the path to spread financial
-          literacy.
-        </li>
-        <br /><br /><a class="aboutusB" href="#">FIND MORE</a>
-      </ul>
+      <h2>ASSETS- The Finance Society</h2>
+
+      <p>
+        ASSETS DTU is the Finance and Investment Society of Delhi Technological
+        University (Formerly Delhi College of Engineering). ASSETS DTU aims to
+        nurture financially prudent students and start an investing culture.
+        ASSETS is a society that focuses on imparting a basic understanding of
+        ‘how to manage your money. Our vision is to create the next generation
+        of smart and financially prudent individuals and we are on the path to
+        spread financial literacy. There are many departments in ASSETS DTU like
+        : Investment Department - where we discuss and share resources to learn
+        about Stock Market and other investments. Crypto Department - We
+        encourage discussions about Cryptocurrencies and Blockchain in this
+        Department. Technical Department - These Department mainly has 2
+        sections namely Quant and Data Science. In Quant Section, we focus on
+        algorithmic trading and quantitative finance. In Data Science we share
+        resources which will help you to learn Data Science and Data Analysis.
+      </p>
+      <div class="wrapper">
+        <div class="button">
+          <span class="button__mask"></span>
+          <span class="button__text"
+            ><a href="../assets about page/about.html">Read More</a></span
+          >
+          <span class="button__text button__text--bis"
+            ><a href="../assets about page/about.html">Read More</a></span
+          >
+        </div>
+      </div>
     </section>
     <!-- <!Sponsers> -->
     <!-- Brand Corousal  -->
@@ -290,12 +302,6 @@
             <span class="visually-hidden">Next</span>
           </button>
         </div>
-      </div>
-    </section>
-    <!--Image body-->
-    <section id="midbody">
-      <div class="imgwala">
-        <div class="quotes">INVESTING IN LEADERS OF TOMORROW</div>
       </div>
     </section>
 
