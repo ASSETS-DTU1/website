@@ -172,7 +172,7 @@ h1 {
   padding: 30px;
   border-radius: 10px;
   margin-top: 20px;
-  color: white;
+  /* color: white; */
 }
 .container h1,
 .container p {
@@ -185,11 +185,11 @@ body {
   justify-content: center;
   background-color: black;
 }
-.row {
+.member-row {
   display: flex !important;
   justify-content: center;
 }
-.column {
+.member-column {
   /* float: left; */
   width: 25%;
 }
@@ -232,7 +232,7 @@ body {
   padding-top: -5px;
 }
 @media screen and (max-width: 600px) {
-  .column {
+  .member-column {
     width: 240px;
     height: 240px;
     object-fit: cover;
@@ -241,7 +241,12 @@ body {
     float: none;
     margin-bottom: 10px;
   }
-  .row {
-    display: block;
+  .member-row {
+    display: block !important;
   }
+}
+
+.member-heading{
+  position: relative;
+  background-color: black;
 }
