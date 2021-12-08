@@ -342,7 +342,7 @@ label span {
 input:focus,
 textarea:focus,
 *:required:focus {
-  border-color: #a3bf00;
+  border-color: #e49c03;
 }
 .overlay {
   color: #ffffff;
@@ -356,8 +356,8 @@ textarea:focus,
 .btn,
 .btn.inverse:hover {
   color: #ffffff;
-  background-color: #a3bf00;
-  border-color: #a3bf00;
+  background-color: #e49c03;
+  border-color: #e49c03;
 }
 .btn:hover,
 .btn.inverse {
