@@ -146,6 +146,9 @@ h3 {
   background-color: black;
   width: 120px;
 }
+.active{
+  background:#6666ff;
+}
 .nav-item{
   margin-top: 3px;
 }

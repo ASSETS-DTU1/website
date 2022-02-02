@@ -16,6 +16,7 @@ h3 {
   /* padding-top: 1%; */
 }
 .nav-link {
+  text-align: center;
   color: white !important;
   background-color: black;
   width: 100px;
