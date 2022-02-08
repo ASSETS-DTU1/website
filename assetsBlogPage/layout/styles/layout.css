@@ -3,7 +3,7 @@
 @import url('framework.css');
 /* Navbar section */
 
-#navigator {
+.navigator {
   background-color: black;
   padding: 0 0;
   height: 5rem;
@@ -16,7 +16,9 @@
   background-color: black;
   width: 100px;
 }
-
+.logo-img{
+  width: 60px;
+}
 .nav-link:hover {
   background-color: white;
   color: black !important;
