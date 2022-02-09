@@ -3,13 +3,29 @@
 @import url('framework.css');
 /* Navbar section */
 
-#navigator {
+#navigator-nav {
+  z-index: 100;
+  background-color: black;
+  height: 7rem;
+  align-items: center;
+}
+.navbar{
+  margin-top: -10px;
+}
+.nav-link {
+  text-align: center;
+  color: white !important;
+  background-color: black;
+  width: 100px;
+}
+.logo-img{
+  width: 60px;
+}
+/* #navigator {
   background-color: black;
   padding: 0 0;
   height: 5rem;
-  align-items: center;
-  /* padding-top: 1%; */
-}
+
 .nav-link {
   text-align: center;
   color: white !important;
@@ -21,7 +37,7 @@
   background-color: white;
   color: black !important;
   border-radius: 5px;
-}
+} */
 
 .nav div.main_list {
   height: 65px;

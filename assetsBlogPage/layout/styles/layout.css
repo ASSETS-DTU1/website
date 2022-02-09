@@ -3,12 +3,14 @@
 @import url('framework.css');
 /* Navbar section */
 
-.navigator {
+#navigator-nav {
+  z-index: 100;
   background-color: black;
-  padding: 0 0;
-  height: 5rem;
+  height: 7rem;
   align-items: center;
-  /* padding-top: 1%; */
+}
+.navbar{
+  margin-top: -10px;
 }
 .nav-link {
   text-align: center;
