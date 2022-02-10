@@ -1,11 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="contact.css" />
+    <title>Contact Us</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <link
+      href="layout/styles/layout.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" href="images/logoBig.ico" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
@@ -14,189 +35,223 @@
       referrerpolicy="no-referrer"
     />
   </head>
-  <body style=" background-image: url(./bg-img.jpg)">
-    <nav class="nav">
-      <div class="nav-container">
-        <div class="logo">
-          <!-- <a href="#">YOur logo</a> -->
-          <a href="#"><img src="./assets_logo.jpeg" /></a>
-        </div>
-        <div id="mainListDiv" class="main_list">
-          <ul class="navlinks">
-            <li><a href="../assets about page/about.html">About</a></li>
-            <li><a href="../Event Page/events.html">Events</a></li>
-            <li><a href="../assetsBlogPage/blog.html">Blogs</a></li>
-            <li><a href="../contactusPage/contact.html">Contact</a></li>
-          </ul>
-        </div>
-        
-      </div>
-    </nav>
-    
-      
-    <div class="container">
-        <header>
-            <h1 style="margin-top: 7%;">CONTACT US</h1>
-            
-        </header>
-        <div class="content">
-            <div class="content-form">
-                <section>
-                    
-                    <h2>Address</h2>
-                    <p>
-                        Delhi Technological University <br>
-                        New Delhi <br>
-                        
-                    </p>
-                </section>
-
-                <section>
-                    
-                    <h2>Phone</h2>
-                    <p>123-456-78901548</p>
-                </section>
-
-                <section>
-                    
-                    <h2>E-mail</h2>
-                    <p>assetsdtu@gmail.com</p>
-                </section>
-            </div>
-        </div>
-
-      <form>
-        <div class="form" netlify>
-            <div class="right">
-              <div class="contact-form">
-                  <input type="text" required>
-                  <span>Full Name</span>
-              </div>
-  
-              <div class="contact-form">
-                  <input type="E-mail" required>
-                  <span>E-mail Id</span>
-              </div>
-              <div class="contact-form">
-                  <textarea name="text">
-                    
-                  </textarea>
-                  <span> Type your Message....</span>
-              </div>
-  
-              <div class="contact-form">
-                  <input type="submit" name="submit">
-              </div>
-              </div>
-            </div>
+  <body id="top" style="color: black;">
+     <!-- Navigation bar -->
+     <div id="navigator-nav">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <a class="navbar-brand" 
+            ><div class="sizelge logo-img">
+              <img
+                src="../mainPage/images/Lugu.png"
+                width="60"
+                style="padding-bottom: 4px"
+              /></div
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link sizelge"
+                  href="../assets about page/about.html"
+                  >About
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sizelge" href="../assetsBlogPage/blog.html"
+                  >Blog</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link sizelge" href="../assetsWingPage/Wing.html"
+                  >Wings</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link sizelge"
+                  href="../contactusPage/contact.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  href="#blog"
+                  role="button"
+                  aria-expanded="false"
+                  >More &nbsp;</a
+                >
+                <ul class="dropdown-menu" id="blog">
+                  <li>
+                    <a class="dropdown-item" href="../Event Page/events.html">Events</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Sampradaa Page/html/index.html">Sampradaa</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="../Recruitment Page/recruitment.html">Recruitment</a>
+                  </li>
+                  <!-- <li><hr class="dropdown-divider"></li>
+                          <li><a class="dropdown-item" href="#">Separated link</a></li> -->
+                </ul>
+              </li>
+            </ul>
           </div>
-    </form>
-        
-        <div class="empty">
-
-        </div>
+        </nav>
+      </div>
     </div>
+        <!-- main body -->
+        <!-- ################################################################################################ -->
+        <section id="contact">
+  
+          <h1 class="section-header">Contact</h1>
+          
+          <div class="contact-wrapper">
+          
+          <!-- Left contact page --> 
+            
+            <form id="contact-form" class="form-horizontal" role="form" name="contact" method="POST" data-netlify="true">
+               
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="" required>
+                </div>
+              </div>
+        
+              <div class="form-group">
+                <div class="col-sm-12">
+                  <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="" required>
+                </div>
+              </div>
+        
+              <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message" required></textarea>
+              
+              <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
+                <div class="alt-send-button">
+                  <i class="fa fa-paper-plane"></i><span class="send-text">Submit</span>
+                </div>
+              
+              </button>
+              
+            </form>
+            
+          <!-- Left contact page --> 
+            
+              <div class="direct-contact-container">
+        
+                <ul class="contact-list">
+                  <li class="list-item"><i class="fa fa-map-marker fa-2x"><span class="contact-text place">DTU, Delhi</span></i></li>
+                  
+                  <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">(212) 555-2368</a></span></i></li>
+                  
+                  <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">contact@assetsdtu.in</a></span></i></li>
+                  
+                </ul>
+        
+                <hr>
+                
+                <hr>
+        
+                
+        
+              </div>
+            
+          </div>
+          
+        </section>  
+          
+          
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    <!-- ################################################################################################ -->
+    
     <!-- Site footer -->
     <footer class="site-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-6 col-md-3">
-            <h6>Project and Events</h6>
-            <ul class="footer-links">
-              <li><a href="../Event Page/index.html">Events</a></li>
-              <li>
-                <a href="../assetsBlogPage/blog.html">Blogs</a>
-              </li>
-              <li>
-                <a href="../assetsWingPage/Wing.html">Wings</a>
-              </li>
-              <li>
-                <a href="../contactusPage/contact.html">Contact Us</a>
-              </li>
-            </ul>
-          </div>
-
-          <div style="text-align: right;" class="col-xs-6 col-md-3">
-            <div class="container">
-              <div class="row">
-                <div class="col-xs-6 col-md-3">
-                  <h6>Project and Events</h6>
-                  <ul class="footer-links">
-                    <li><a href="../Event Page/events.html">Events</a></li>
-                    <li>
-                      <a href="../Sampradaa Page/html/index.html">Sampradaa</a>
-                    </li>
-                    <li>
-                      <a href="../assetsBlogPage/blog.html">Blogs</a>
-                    </li>
-                  </ul>
-                </div>
-      
-                <div class="col-xs-6 col-md-3">
-                  <h6>Quick Links</h6>
-                  <ul class="footer-links">
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="../assets about page/about.html">About Us</a></li>
-                    <li><a href="../contactusPage/contact.html">Contact Us</a></li>
-                    
-                    
-                  </ul>
-                </div>
-              </div>
-              <hr />
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-6 col-md-3">
+              <h6>Project and Events</h6>
+              <ul class="footer-links">
+                <li><a href="../Event Page/events.html">Events</a></li>
+                <li>
+                  <a href="../Sampradaa Page/html/index.html">Sampradaa</a>
+                </li>
+                <li>
+                  <a href="../assetsBlogPage/blog.html">Blogs</a>
+                </li>
+              </ul>
             </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-sm-6 col-xs-12">
-            <p class="copyright-text">
-              ASSETS DTU - Official Finance Society Of DTU
-            </p>
+  
+            <div class="col-xs-6 col-md-3">
+              <h6>Quick Links</h6>
+              <ul class="footer-links">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../assets about page/about.html">About Us</a></li>
+                <li><a href="../contactusPage/contact.html">Contact Us</a></li>
+                
+                
+              </ul>
+            </div>
           </div>
-
-          <div class="col-md-4 col-sm-6 col-xs-12">
-            <ul class="social-icons">
-              <li>
-                <a class="facebook" href="https://www.instagram.com/assets_dtu/"
-                  ><i class="fab fa-instagram"></i
-                ></a>
-              </li>
-              
-              <li>
-                <a class="linkedin" href="https://www.linkedin.com/company/assets-dtu/mycompany/"><i class="fab fa-linkedin"></i></a>
-              </li>
-            </ul>
+          <hr />
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">
+                ASSETS DTU - Official Finance Society Of DTU
+              </p>
+            </div>
+  
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li>
+                  <a class="facebook" href="https://www.instagram.com/assets_dtu/"
+                    ><i class="fab fa-instagram"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="linkedin" href="https://www.linkedin.com/company/assets-dtu/mycompany/"><i class="fab fa-linkedin"></i></a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
-    </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/scripts.js"></script>
-    <script>
-      $(window).scroll(function () {
-        if ($(document).scrollTop() > 50) {
-          $('.nav').addClass('affix');
-          console.log('OK');
-        } else {
-          $('.nav').removeClass('affix');
-        }
-      });
-    </script>
-        <!-- J-query CDN -->
-        <script src="script.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
-          integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
-          crossorigin="anonymous"
-        ></script>
+      </footer>
+
+    <!-- JAVASCRIPTS -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    
+    <!-- J-query CDN -->
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
