@@ -147,6 +147,13 @@ h3 {
   background-size: cover;
   backdrop-filter: blur(10px);
 }
+
+p.intro_para{
+  padding: 0 40px 0;
+  text-align: justify !important;
+}
+
+
 .wrapper a,
 .wrapper a :hover {
   text-decoration: none;
@@ -363,4 +370,64 @@ h3 {
     margin-right: 0;
     font-weight: 600;
   }
+}
+
+
+
+/* sponsor section styling */
+
+#sponsr{
+  position: relative !important;
+  background: url(../mainPage/images/sponsor-bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  height: 500px;
+  z-index: 1;
+
+  color:white;
+  
+}
+.sponsr-left{
+  margin-top:auto;
+  color:white;
+  padding:50px;  
+  
+}
+
+.sponsr-left p{
+  font-size: 25px;
+}
+
+
+
+
+.sponsr-center{
+  
+  
+  width:fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+}
+
+.width-sponsor{
+  width:650px;
+  padding: 30px;
+}
+
+.sponsr-right{
+  /* color:black; */
+}
+
+#sponsr::after {
+  content:'';
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 100%;
+	width: 100%;
+	background-color: black;
+	opacity: 0.7;
+	z-index: -1;
 }
