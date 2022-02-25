@@ -491,6 +491,9 @@ div.carousel.sponsr-mobile{
   .sponsr-mobile{
     display:block;
   }
+  .sponsr-left{
+    margin-left:0;
+  }
 
 }
 
