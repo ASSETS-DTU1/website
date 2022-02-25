@@ -493,6 +493,7 @@ div.carousel.sponsr-mobile{
   }
   .sponsr-left{
     margin-left:0;
+    margin: 0 5px;
   }
 
 }
