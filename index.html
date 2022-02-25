@@ -41,9 +41,25 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
     integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- flickity for carousel  -->
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
 </head>
 
 <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
   <!-- Navigation bar -->
   <section id="navigator">
     <div class="container">
@@ -136,29 +152,55 @@
 
 
 
+
+
   <!-- Sponsor Section -->
   <section id="sponsr">
 
     <div class="sponsr-center">
       <!-- <img class="sponsr-img" src="../mainPage/images/sponsor-bg.jpg" alt=""> -->
-    <div  class="sponsr-left width-sponsor">
-
-      
-      <h3>Our Sponsors</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias laudantium enim cupiditate autem
-        eligendi expedita natus minus quisquam beatae. Facere odit labore autem voluptate! Voluptates pariatur, quo iste
-        delectus molestiae eos corporis reprehenderit quas! Aliquid magni nam rerum voluptate?</p>
+      <div class="sponsr-left width-sponsor">
 
 
+        <h3>Our Sponsors</h3>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore molestias laudantium enim cupiditate autem
+          eligendi expedita natus minus quisquam beatae. Facere odit labore autem voluptate! Voluptates pariatur, quo
+          iste
+          delectus molestiae eos corporis reprehenderit quas! Aliquid magni nam rerum voluptate?</p>
+
+
+      </div>
+
+      <div class="sponsr-right width-sponsor">
+
+        <!-- desktop version  -->
+        <div class="carousel sponsr-desktop" data-flickity='{ "wrapAround": true, "groupCells": 2, "pageDots": false, "autoPlay": true }'>
+          <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+          <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+          <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+          <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+          <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>     
+          </div>
+
+          
+        <!-- mobile version -->
+      <div class="carousel sponsr-mobile" data-flickity='{ "wrapAround": true, "pageDots": false, "autoPlay": true }'>
+        <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+        <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+        <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+        <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+        <div class="carousel-cell"><img src="./mainPage/images/LogoGoogle.png" alt=""></div>
+      </div>
     </div>
-
-    <div class="sponsr-right width-sponsor">
-
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nemo dignissimos impedit, architecto porro fugit ipsa consectetur dolorem? Perferendis sint recusandae quasi quia necessitatibus quibusdam aliquam vitae itaque maiores id eum, soluta quo culpa, nesciunt, quidem iure. Incidunt ipsum vitae eos quisquam, vel molestiae enim optio odio illo itaque aliquid similique delectus pariatur voluptatem, nostrum iste eius maxime nam nesciunt commodi at animi et illum. Sint provident nisi eos velit rerum corporis, debitis minus, esse officiis ipsam, necessitatibus explicabo ullam alias commodi voluptatem. Id dignissimos magnam at sit quam architecto suscipit nihil, a illum velit deleniti dolores quaerat ea, incidunt iure!</p>
-    </div>
-  </div>
 
   </section>
+
+
+
+
+
+
 
 
   <!-- 2nd Body Part -->
@@ -189,7 +231,7 @@
       </div>
     </div>
   </section>
-  <!-- <!Sponsers> -->
+
 
   <!-- Site footer -->
   <footer class="site-footer">
@@ -258,6 +300,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
     crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
 </body>
 
 </html>
