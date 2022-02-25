@@ -390,7 +390,7 @@ p.intro_para{
   margin-top:auto;
   color:white;
   width:30%;
-  padding: 30px 30px 30px 30px;  
+  padding: 30px;  
   text-align: justify;
   margin-top:20px;
   margin-left:20px;
@@ -493,7 +493,7 @@ div.carousel.sponsr-mobile{
   }
   .sponsr-left{
     margin-left:0;
-    margin: 0 5px;
+    overflow-x: hidden;
   }
 
 }
