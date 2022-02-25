@@ -477,7 +477,10 @@ div.carousel.sponsr-mobile{
   .sponsr-center{
   flex-direction: column;}
   .sponsr-left{
-    width: 100%;
+    width: 90%;
+    margin-left:auto;
+    margin-right: auto;
+    overflow-x: hidden;
   }
   .sponsr-right{
     width: 100%;
@@ -490,10 +493,6 @@ div.carousel.sponsr-mobile{
   }
   .sponsr-mobile{
     display:block;
-  }
-  .sponsr-left{
-    margin-left:0;
-    overflow-x: hidden;
   }
 
 }
