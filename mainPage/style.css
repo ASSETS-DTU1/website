@@ -467,8 +467,8 @@ p.intro_para{
 }
 
 
-div.carousel.sponsr-mobile{
-  display: none !important;
+#sponsr-mobile{
+  display: none;
 }
 
 
@@ -476,22 +476,32 @@ div.carousel.sponsr-mobile{
 @media (max-width: 767px) {
   .sponsr-center{
   flex-direction: column;}
+
+  .carousel-cell img{
+    display: block;
+    text-align: center;
+    /* width:150px; */
+  }
   .sponsr-left{
     width: 90%;
     margin-left:auto;
     margin-right: auto;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
   }
   .sponsr-right{
     width: 100%;
   }
   .carousel-cell{
-    width:90%;
+    display: flex;
+    justify-content: center;
+    width:100%;
+    margin-right:10px;
+    padding: 0;
   }
-  .sponsr-desktop{
-    display: hidden;
+  #sponsr-desktop{
+    display: none;
   }
-  .sponsr-mobile{
+  #sponsr-mobile{
     display:block;
   }
 
