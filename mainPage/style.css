@@ -390,7 +390,7 @@ p.intro_para{
   margin-top:auto;
   color:white;
   width:30%;
-  padding: 30px;  
+  padding: 20px;  
   text-align: justify;
   margin-top:20px;
   margin-left:20px;
@@ -402,7 +402,8 @@ p.intro_para{
 
 .sponsr-left p{
   padding-top: 10px;
-  font-size: 22px;
+  font-size: 18px;
+  margin-bottom: -10px;
 }
 
 
@@ -451,6 +452,7 @@ p.intro_para{
 }
 
 .carousel-cell img{
+  padding: 15px;
   width:465px;
 }
 .carousel-cell {
@@ -474,6 +476,13 @@ p.intro_para{
 
 
 @media (max-width: 767px) {
+
+
+  #sponsr{
+    background: url(../mainPage/images/sponsr-mobile-bg.jpg);
+    background-size: cover;
+
+  }
   .sponsr-center{
   flex-direction: column;}
 
@@ -481,6 +490,9 @@ p.intro_para{
     display: block;
     text-align: center;
     /* width:150px; */
+  }
+  .sponsr-left p{
+    margin-bottom: 10px;
   }
   .sponsr-left{
     width: 90%;
