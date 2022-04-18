@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   color: white;
 }
 /* Navbar section */
@@ -125,10 +125,10 @@
 } */
 h3 {
   text-align: center;
-  font-family: 'Besley', sans-serif;
+  font-family: "Besley", sans-serif;
   padding-top: 1%;
 }
-.header-container{
+.header-container {
   top: 0;
   background-color: black !important;
   padding-right: 15px;
@@ -144,12 +144,12 @@ h3 {
 .nav-link {
   color: white !important;
   background-color: black;
-  width: 120px;
+  width: 180px;
 }
-.active{
-  background:#6666ff;
+.active {
+  background: #6666ff;
 }
-.nav-item{
+.nav-item {
   margin-top: 3px;
 }
 .nav-link:hover {
@@ -249,7 +249,7 @@ body {
   }
 }
 
-.member-heading{
+.member-heading {
   position: relative;
   background-color: black;
 }
@@ -321,7 +321,7 @@ body {
   margin: 0;
 }
 @media (max-width: 991px) {
-  .site-footer [class^='col-'] {
+  .site-footer [class^="col-"] {
     margin-bottom: 30px;
   }
 }
@@ -363,7 +363,7 @@ body {
   margin-right: 8px;
   border-radius: 100%;
 }
-.container-footer{
+.container-footer {
   margin-left: 30px;
 }
 .social-icons.size-sm a {
