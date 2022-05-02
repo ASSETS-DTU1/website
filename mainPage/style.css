@@ -519,5 +519,48 @@ p.intro_para{
 
 }
 
+#spon{
+  margin:30px 0;
+  display: grid;
+  /* flex-direction: column; */
+  justify-content: center;
+
+}
+#spon h4{
+  text-align: center;
+  /* text-shadow: 1px 1px; */
+  font-weight: bold;
+  font-size: 30px;
+}
+
+#spon img{
+  margin:0 auto;
+  width: 50vw;
+}
+
+#spon h2{
+  font-weight: 900;
+  margin: 0 auto;
+  font-size: 60px;
+}
+
+@media (max-width: 767px){
+  #spon h2{
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 15px;
+  }
+  #spon img{
+  margin:0 auto;
+  width: 80vw;
+}
+#spon h4{
+  font-size:25px;
+  
+}
+
+}
+
+
 
 
